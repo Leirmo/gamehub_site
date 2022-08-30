@@ -1,0 +1,48 @@
+/*Header*/
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.profile_image {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    border: #fff;
+}
+
+nav {
+
+    display: none;
+    position: fixed;
+
+    background: var(--color-header-footer);
+    z-index: 1000;
+   
+  }
+  
+  nav ul {
+    padding: 0px;
+  }
+  
+  nav li {
+    display: block;
+    padding: 20px 30px;
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+  
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+  }
