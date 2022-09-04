@@ -306,3 +306,39 @@ footer {
   background-color: #7614D9;
   padding: 20px 0px 50px 50px;
 }
+
+/*MySite*/
+.profile {
+  display: flex;
+  flex-direction: row;
+  background-color: #7614D9;
+  justify-items: center;
+}
+
+.your_profile {
+  flex: 1;
+  position: relative;
+  margin: 50px 100px 20px 20px;
+  background-color: #022859;
+  border-radius: 25px;
+}
+
+.your_games {
+  flex: 1;
+  position: relative;
+}
+
+.friends {
+  display: flex;
+  justify-content: center;
+  background-color: #022859;
+  flex-direction: row;
+}
+
+.your_friends {
+  flex: 1;
+}
+
+.sell_game {
+  background-color: #7614D9;
+}
