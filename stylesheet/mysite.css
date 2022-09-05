@@ -1,0 +1,35 @@
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #7614D9;
+    height: 350px;
+  }
+  
+  .your_profile {
+    flex: 1;
+    max-width: 500px;
+    max-height: 300px;
+    background-color: #022859;
+    border-radius: 25px;
+  }
+  
+  .your_games {
+    flex: 1;
+  }
+  
+  .friends {
+    display: flex;
+    justify-content: center;
+    background-color: #022859;
+    flex-direction: row;
+  }
+  
+  .your_friends {
+    flex: 1;
+  }
+  
+  .sell_game {
+    background-color: #7614D9;
+  }
