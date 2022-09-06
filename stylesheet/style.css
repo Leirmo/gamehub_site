@@ -180,6 +180,8 @@ body {
   flex: 1;
   text-align: center;
   margin: 40px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .text {

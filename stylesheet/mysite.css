@@ -12,24 +12,34 @@
     padding: 10px;
     background-color: #022859;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
 }
   
 .your_games {
     padding: 10px;
 }
   
+.friend_header{
+    padding-top: 20px;
+    margin: 0;
+    background: #022859;
+    text-align: center;
+}
 .friends {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 50px;
     background-color: #022859;
+    height: 350px;
 }
   
 .your_friends {
     padding: 50px;
     background-color: #0487D9;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
 }
   
 .sell_game {
