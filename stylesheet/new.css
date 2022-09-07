@@ -1,9 +1,9 @@
 .section_coming_soon_1 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse space-around;
     flex: 1;
     background-color: #022859;
-    padding: 20px 0px 50px 50px;
+ 
   }
   
   
