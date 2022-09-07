@@ -14,7 +14,6 @@ body{
 .about {
     position: relative;
     padding: 20px 200px 50px 200px;
-    min-height: 330px;
     text-align: left;
     display: flex;
     justify-content: center;

@@ -1,0 +1,19 @@
+
+
+.shopping_cart {
+    display: flex;
+    justify-content: center;
+    margin: 50px 150px;
+    background: rgba(255, 255, 255, 0.409);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+body {
+    background-color: #7614D9;
+}
+
+.buy {
+    position: relative;
+    padding-left: 800px;
+    height: 350px;
+}

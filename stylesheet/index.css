@@ -1,0 +1,38 @@
+.welcome {
+    flex: 1;
+    display: flex;
+    position: relative;
+    background: linear-gradient(10deg, #022859, #7614D9);
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome_text {
+    flex: 1;
+}
+
+.logo_image {
+    flex: 1;
+    width: 250px;
+}
+
+.section_home_1 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    background-color: #7614D9;
+    padding: 10px 30px 40px 30px;
+}
+  
+.section_home_2 {
+    display: flex;
+    flex: 1;
+    background-color: #022859;
+    padding: 10px 30px 40px 30px;
+}
+
+.sell {
+    background-color: #022859;
+    text-align: center;
+    padding: 50px;
+}

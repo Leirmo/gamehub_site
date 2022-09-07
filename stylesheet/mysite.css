@@ -42,6 +42,8 @@
     box-shadow: 5px 5px 5px black;
 }
   
-.sell_game {
+.for_sale {
+    display: flex;
     background-color: #7614D9;
+    justify-content: center;
 }
