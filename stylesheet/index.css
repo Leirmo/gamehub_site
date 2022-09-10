@@ -1,10 +1,9 @@
 .welcome {
-    flex: 1;
     display: flex;
     position: relative;
-    background: linear-gradient(10deg, #022859, #7614D9);
+    background: linear-gradient(90deg, #022859, #7614D9);
     align-items: center;
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 .welcome_text {
@@ -12,8 +11,7 @@
 }
 
 .logo_image {
-    flex: 1;
-    width: 250px;
+    width: 280px;
 }
 
 .section_home_1 {

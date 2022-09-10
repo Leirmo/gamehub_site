@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: row;
     background-color: #7614D9;
-    height: 350px;
+    padding: 50px;
   }
 
 .your_profile {
@@ -15,10 +15,15 @@
     box-shadow: 5px 5px 5px black;
 }
   
+.profile_picture {
+    width: 180px;
+    border-radius: 50%;
+}
+
 .your_games {
     padding: 10px;
 }
-  
+
 .friend_header{
     padding-top: 20px;
     margin: 0;

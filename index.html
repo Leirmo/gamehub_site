@@ -4,35 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta mane="description" content=" welcome to gamehub, here you can hold your self updated on the game news.">
+    <title>Gamehub | Home</title>
+    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="/stylesheet/index.css">
-    <link rel="stylesheet" href="/stylesheet/new.css">
-    <link rel="stylesheet" href="/stylesheet/coming_soon.css">
-    <link rel="stylesheet" href="/stylesheet/sale.css">
-    <link rel="stylesheet" href="/stylesheet/mysite.css">
-    <link rel="stylesheet" href="/stylesheet/about.css">
-    <link rel="stylesheet" href="/stylesheet/cart.css">
     <link rel="stylesheet" href="/stylesheet/footer.css">
-    <title>Gamehub | Home</title>
 </head>
 <body>
     <header>
-        <div>
-            <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
-            <input type="checkbox" id="hamburger-menu">
+        <label for="hamburger-menu"><i class="fas fa-bars fa-2xl"></i></label>
+        <input type="checkbox" id="hamburger-menu">
             <nav>
                 <ul>
-                    <a href="index.html">Home</a>
-                    <a href="mysite.html">MySite</a>
-                    <a href="about.html">About</a>
-                    <a href="login.html">Logg Out</a>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="mysite.html">MySite</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Logg Out</a></li>
                 </ul>
             </nav>
-        </div>
         <div class="box-menu">
             <input type="checkbox" id="check">
             <div class="search">
@@ -40,67 +33,62 @@
                 <label for="check" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></label>
             </div>
         </div>
-        <div>
             <a href="/cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
-        </div>
     </header>
-    <div class="container">
+    <main>
         <section class="welcome">
             <div class="welcome_text">
                 <h1>Play with Gamehub</h1>
                 <p>Welcome, here you can hold your self updated on he game news.</p>
                 <p>Earn money $$$ on your old games and buy new games!!</p>  
             </div>
-            <div class="logo">
-                <a href="#"><img src="/images/GameHub_Logo.png" class="logo_image" alt="gamehub_logo"></a>
-            </div>
+            <img src="/images/GameHub_Logo.png" class="logo_image" alt="gamehub_logo">
         </section>
         <section class="section_home_1">
             <div class="text">
                 <h2>Lets check out whats New!!</h2>
                 <p>Check out the newest games, come on join the world</p>
-                <a href="new.html"><button>See More</button></a>
+                <a href="../products/new.html" class="cta_button">See More</a>
             </div>
-            <div class="image">
-                <a href="/new.html"><img src="/images/GameHub_covers4.jpg" class="furius cover_image" alt="game_cover"></a>
-                <a href="/new.html"><img src="/images/GameHub_covers10.jpg" class="forge_legend cover_image" alt="game_cover"></a>
-                <a href="/new.html"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game_cover"></a>
+            <div class="section_images">
+                <a href="../products/new.html"><img src="/images/GameHub_covers4.jpg" class="furius cover_image" alt="game_cover"></a>
+                <a href="../products/new.html"><img src="/images/GameHub_covers10.jpg" class="forge_legend cover_image" alt="game_cover"></a>
+                <a href="../products/new.html"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game_cover"></a>
             </div>
         </section>
         <section class="section_home_2">
             <div class="text">
                 <h2>Great games coming soon.</h2>
                 <p>Pre order on coming games and get them before everyone else. Become a master in the game before enyone else.</p>
-                <a href="coming_soon.html"><button>See More</button></a>
+                <a href="../products/coming_soon.html" class="cta_button">See More</a>
             </div>
-            <div class="image">
-                <a href="/coming_soon.html"><img src="/images/GameHub_covers5.jpg" class="furius cover_image" alt="game_cover"></a>
-                <a href="/coming_soon.html"><img src="/images/GameHub_covers6.jpg" class="forge_legend cover_image" alt="game_cover"></a>
-                <a href="/coming_soon.html"><img src="/images/GameHub_covers7.jpg" class="black cover_image" alt="game_cover"></a>
-                <a href="/coming_soon.html"><img src="/images/GameHub_covers9.jpg" class="forge_legend cover_image" alt="game_cover"></a>
+            <div class="section_images">
+                <a href="../products/coming_soon.html"><img src="/images/GameHub_covers5.jpg" class="furius cover_image" alt="game_cover"></a>
+                <a href="../products/coming_soon.html"><img src="/images/GameHub_covers6.jpg" class="forge_legend cover_image" alt="game_cover"></a>
+                <a href="../products/coming_soon.html"><img src="/images/GameHub_covers7.jpg" class="black cover_image" alt="game_cover"></a>
+                <a href="../products/coming_soon.html"><img src="/images/GameHub_covers9.jpg" class="forge_legend cover_image" alt="game_cover"></a>
             </div>
         </section>
         <section class="section_home_1">
             <div class="text">
                 <h2>Check out whats for sale</h2>
                 <p>Go nostalgic with your old love. Now on sale.</p>
-                <a href="sale.html"><button>See More</button></a>
+                <a href="../products/sale.html" class="cta_button">See More</a>
             </div>
-            <div class="image">
-                <a href="/sale.html"><img src="/images/GameHub_covers8.jpg" class="forge_legend cover_image" alt="game_cover"></a>
-                <a href="/sale.html"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game_cover"></a>
-                <a href="/sale.html"><img src="/images/GameHub_covers2.jpg" class="forge_legend cover_image" alt="game_cover"></a>
+            <div class="section_images">
+                <a href="../products/sale.html"><img src="/images/GameHub_covers8.jpg" class="forge_legend cover_image" alt="game_cover"></a>
+                <a href="../products/sale.html"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game_cover"></a>
+                <a href="../products/sale.html"><img src="/images/GameHub_covers2.jpg" class="forge_legend cover_image" alt="game_cover"></a>
             </div>
         </section>
         <section class="sell">
             <div>
                 <h3>Hey! sell your old game and get money</h3>
                 <p>Just a few click away from money $$$</p>
-
-                <a href="#"><button>Sell</button></a>
+                <a href="sell.html" class="cta_button">Sell</a>
             </div>
         </section>
-    </div>
+    </main>
     <footer>
         <section class="footer_section">
             <h3>Follow us</h3>
