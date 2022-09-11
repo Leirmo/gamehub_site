@@ -1,16 +1,36 @@
-.section_coming_soon_1 {
-    display: flex;
-    flex-direction: row-reverse space-around;
-    flex: 1;
-    background-color: #022859;
- 
-  }
-  
-  
-  .section_coming_soon_2 {
-    display: flex;
-    flex-direction: row-reverse;
-    flex: 1;
-    background-color: #7614D9;
-    padding: 20px 0px 50px 50px;
-  }
+.welcome_home {
+  background: linear-gradient(90deg, #022859, #7614D9);
+}
+
+.welcome_home_logo {
+  width: 280px;
+}
+
+.welcome_home_content,
+.view_items_section {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+
+.view_items_section div {
+
+}
+
+.view_items_section_2 {
+  background-color: #022859;   
+}
+
+.view_items_section_2_content {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 20px 0;
+}

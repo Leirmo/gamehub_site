@@ -1,44 +1,46 @@
 .welcome_home {
-    display: flex;
-    position: relative;
     background: linear-gradient(90deg, #022859, #7614D9);
-    align-items: center;
-    padding: 20px 100px;
-}
-
-.welcome_home_text {
-    flex: 1;
 }
 
 .welcome_home_logo {
     width: 280px;
 }
 
+.welcome_home_content,
 .section_home_1 {
     max-width: 1000px;
     display: flex;
     flex-direction: row-reverse;
-    background-color: #7614D9;
-    margin: 30px auto;
-}
-
-.section_home_1 > * {
-    flex: 1;
+    gap: 50px;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
 .section_home_2 {
+    background-color: #022859;   
+}
+
+.section_home_2_content {
+    max-width: 1000px;
     display: flex;
-    flex: 1;
-    background-color: #022859;
-    padding: 10px 30px 40px 30px;
+    gap: 50px;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
-.section_home_text {
-    position: relative;
-    text-align: left;
-    padding: 60px;
-}
 
+.cover_image {
+    margin: 10px;
+    width: 150px;
+    box-shadow: 5px 5px 5px black;
+}
+  
+.cover_image:hover {
+    box-shadow: 10px 10px 5px black;
+}
+  
 .sell {
     background-color: #022859;
     text-align: center;

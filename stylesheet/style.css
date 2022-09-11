@@ -33,6 +33,7 @@ a:hover {
 
 body {
   margin: 0;
+  background-color: #7614D9;
 }
 
 /*Header*/
@@ -102,30 +103,6 @@ header {
 .cart {
   font-size: 30px;
   position: relative;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
-}
-
-.cover_image {
-  position: relative;
-  margin: 10px;
-  width: 150px;
-  box-shadow: 5px 5px 5px black;
-}
-
-.cover_image:hover {
-  box-shadow: 10px 10px 5px black;
-}
-
-.section_images {
-  flex: 1;
-  text-align: center;
-  margin: 40px 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
