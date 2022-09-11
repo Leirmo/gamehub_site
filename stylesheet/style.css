@@ -46,38 +46,6 @@ header {
   color: #fff;
 }
 
-nav {
-  margin-right: 0px;
-  display: none;
-  position: absolute;
-  top: 70px;
-  background-color: #0487D9;
-  z-index: 1000; 
-  left: 0px;
-}
-
-nav ul {
-  padding: 0px;
-}
-  
-nav a {
-  display: block;
-  padding: 10px 40px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-#hamburger-menu {
-  display: none;
-}
-  
-#hamburger-menu:checked ~ nav {
-  display: block;
-}
-
 .box-menu {
   flex: 1;
   max-width: 300px;
@@ -152,10 +120,6 @@ nav a:hover {
   box-shadow: 10px 10px 5px black;
 }
 
-.text {
-  padding: 60px;
-}
-
 .section_images {
   flex: 1;
   text-align: center;
@@ -164,12 +128,44 @@ nav a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.text {
-  position: relative;
-  text-align: left;
+
+
+/*Links*/
+nav {
+  margin-right: 0px;
+  display: none;
+  position: absolute;
+  top: 70px;
+  background-color: #0487D9;
+  z-index: 1000; 
+  left: 0px;
 }
 
+nav ul {
+  padding: 0px;
+}
+  
+nav a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+}
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-menu {
+  display: none;
+}
+  
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.active {
+  text-decoration: underline;
+}
 
 .cta_button {
   position: relative;

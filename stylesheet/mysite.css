@@ -11,12 +11,13 @@
 .your_profile {
     padding: 10px;
     background-color: #022859;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 5px 5px 5px black;
 }
   
 .profile_picture {
-    width: 180px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 
@@ -45,6 +46,13 @@
     background-color: #0487D9;
     border-radius: 25px;
     box-shadow: 5px 5px 5px black;
+}
+
+.friends_profile_picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
 }
   
 .for_sale {

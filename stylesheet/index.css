@@ -15,18 +15,28 @@
 }
 
 .section_home_1 {
+    max-width: 1000px;
     display: flex;
     flex-direction: row-reverse;
-    flex: 1;
     background-color: #7614D9;
-    padding: 10px 30px 40px 30px;
+    margin: 30px auto;
 }
-  
+
+.section_home_1 > * {
+    flex: 1;
+}
+
 .section_home_2 {
     display: flex;
     flex: 1;
     background-color: #022859;
     padding: 10px 30px 40px 30px;
+}
+
+.section_home_text {
+    position: relative;
+    text-align: left;
+    padding: 60px;
 }
 
 .sell {

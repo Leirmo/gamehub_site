@@ -11,14 +11,9 @@
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="/stylesheet/index.css">
-    <link rel="stylesheet" href="/stylesheet/new.css">
-    <link rel="stylesheet" href="/stylesheet/coming_soon.css">
-    <link rel="stylesheet" href="/stylesheet/sale.css">
     <link rel="stylesheet" href="/stylesheet/mysite.css">
-    <link rel="stylesheet" href="/stylesheet/about.css">
-    <link rel="stylesheet" href="/stylesheet/cart.css">
     <link rel="stylesheet" href="/stylesheet/footer.css">
-    <title>Gamehub | Home</title>
+    <title>Gamehub | MySite</title>
 </head>
 <body>
     <header>
@@ -28,8 +23,9 @@
             <nav>
                 <ul>
                     <a href="index.html">Home</a>
-                    <a href="mysite.html">MySite</a>
+                    <a href="mysite.html" class="active">MySite</a>
                     <a href="about.html">About</a>
+                    <a href="login.html">LogOut</a>
                 </ul>
             </nav>
         </div>
@@ -41,35 +37,36 @@
             </div>
         </div>
         <div>
-            <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="cart.html" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </header>
     <main>
-        <div class="container">
-            <section class="welcome">
-                <div class="welcome_text">
-                    <h1>Play with Gamehub</h1>
-                    <p>Her wil go some text about this site.</p>
-                    <p>Maybe 2 paragrafs about gamehub</p>  
-                </div>
-                <div class="logo">
-                    <a href="#"><img src="/images/GameHub_Logo.png" class="logo_image" alt="gamehub_logo"></a>
-                </div>
-            </section>
+        <section class="welcome_home">
+            <div class="welcome_home_text">
+                <h1>Play with Gamehub</h1>
+                <p>Welcome, here you can hold your self updated on he game news.</p>
+                <p>Earn money $$$ on your old games and buy new games!!</p>  
+            </div>
+            <img src="/images/GameHub_Logo.png" class="welcome_home_logo" alt="gamehub logo">
+        </section>
             <section class="profile">
                     <div class="your_profile">
                         <h2>Your Profile</h2>
-                        <img src="/images/AdobeStock_488867172.jpeg" class="profile_picture" alt="/images/AdobeStock_488867172.jpeg">
+                        <img src="/images/AdobeStock_488867172.jpeg" class="profile_picture" alt="Your profile picture">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <P>XXXXXX</P>
                         <p>XXXXXX</p>
                     </div>
                     <div class="your_games">
-                        <a href="#"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game_cover"></a>
-                        <button>play</button>
-                        <button>Sell</button>
-                        <a href="#"><img src="/images/GameHub_covers8.jpg" class="forge_legend cover_image" alt="game_cover"></a>
-                        <a href="#"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game_cover"></a>
+                        <a href="#"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game cover"></a>
+                        <a href="#" class="cta_button">Play</a>
+                        <a href="#" class="cta_button">Sell</a>
+                        <a href="#"><img src="/images/GameHub_covers8.jpg" class="forge_legend cover_image" alt="game cover"></a>
+                        <a href="#" class="cta_button">Play</a>
+                        <a href="#" class="cta_button">Sell</a>
+                        <a href="#"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game cover"></a>
+                        <a href="#" class="cta_button">Play</a>
+                        <a href="#" class="cta_button">Sell</a>
                     </div>
             </section>
             <div>
@@ -78,25 +75,25 @@
             <section class="friends">  
                 <div class="your_friends">
                         <h2>Reidar</h2>
-                        <img src="#" alt="#">
+                        <img src="/images/AdobeStock_488870081.jpeg" class="friends_profile_picture" alt="Reidars profile picture">
                         <p>XXXXXX</p>
                 </div>
                 <div class="your_friends">
                         <h2>Jøran</h2>
-                        <img src="#" alt="#">
+                        <img src="/images/AdobeStock_487621790.jpeg" class="friends_profile_picture" alt="Jøran profile picture">
                         <p>XXXXXXX</p>
                 </div>
                 <div class="your_friends">
                         <h2>Mina</h2>
-                        <img src="#" alt="#">
+                        <img src="/images/AdobeStock_488868570.jpeg" class="friends_profile_picture" alt="Mina profile picture">
                         <p>XXXXXXX</p>
                 </div>
             </section>
             <section class="for_sale">
                 <div class="sell_game">
                     <h2>Games for sale</h2>
-                    <a href="#"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game_cover"></a>
-                    <a href="#"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game_cover"></a>
+                    <a href="#"><img src="/images/GameHub_covers3.jpg" class="black cover_image" alt="game cover"></a>
+                    <a href="#"><img src="/images/GameHub_covers.jpg" class="black cover_image" alt="game cover"></a>
                 </div>
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet,</p>
