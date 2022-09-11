@@ -188,3 +188,7 @@ nav a:hover {
   border: black;
   box-shadow: 5px 5px 10px black;
 }
+
+.login_button {
+  background-color: #7614D9;
+}

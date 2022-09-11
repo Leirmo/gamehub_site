@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Welcome to gamehub, login page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -44,41 +45,35 @@
             <a href="#" class="cart"><i class="fa-solid fa-cart-shopping"></i></a>
         </div>
     </header>
-    <div class="container">
-        <section class="welcome">
-            <div class="welcome_text">
-                <h1>Play with Gamehub</h1>
-                <p>Welcome, here you can hold your self updated on he game news.</p>
-                <p>Earn money $$$ on your old games and buy new games!!</p>  
-            </div>
-            <div class="logo">
-                <a href="#"><img src="/images/GameHub_Logo.png" class="logo_image" alt="gamehub_logo"></a>
-            </div>
-        </section>
-        <section>
-            <form action="form-sucsess.php" method="POST" class="registrer_form">
-                <fieldset>
-                    <legend>Registrer</legend>
-                    <label for="name">Your name</label>
-                    <input type="text" name="name" id="name" class="form__input" required>
-                    <label for="phone">Your Phone</label>
-                    <input type="tel" name="phone" id="phone" class="form__input" required>
-                    <label for="email">Your email address</label>
-                    <input type="email" name="email" id="email" class="form__input" required>
-                    <p>Age</p>
-                    <input type="radio" id="yonger-20" name="age" value="yonger-20">
-                    <label for="yonger-20">Yonger-20</label>
-                    <input type="radio" id="20-30" name="age" value="20-30">
-                    <label for="20-30">20-30</label>
-                    <input type="radio" id="30-above" name="age" value="30-above">
-                    <label for="30-above">30-Above</label>
-                </fieldset>
-                <div class="button">    
-                <input type="submit" value="Registrer" id="registrer_btn">
+    <main>
+        <div class="container">
+            <section class="welcome">
+                <div class="welcome_text">
+                    <h1>Play with Gamehub</h1>
+                    <p>Welcome, here you can hold your self updated on he game news.</p>
+                    <p>Earn money $$$ on your old games and buy new games!!</p>  
                 </div>
-            </form>
-        </section>
-    </div>
+                <div class="logo">
+                    <a href="#"><img src="/images/GameHub_Logo.png" class="logo_image" alt="gamehub_logo"></a>
+                </div>
+            </section>
+            <section>
+                <form class="registrer_form">
+                    <fieldset>
+                        <legend>LogIn</legend>
+                        <label for="email">Your email address</label>
+                        <input type="email" name="email" id="email" class="form__input" required>
+                        <label for="password">Your Password</label>
+                        <input type="password" name="password" id="password" class="form__input" required>
+                        <input type="radio" id="yonger-20" name="age" value="yonger-20">
+                        <label for="yonger-20">Remeber me</label>
+                    <div class="button">    
+                    <a href="index.html" class="cta_button login_button">LogIn</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
     <footer>
         <section class="footer_section">
             <h3>Follow us</h3>

@@ -1,4 +1,4 @@
-.welcome {
+.welcome_home {
     display: flex;
     position: relative;
     background: linear-gradient(90deg, #022859, #7614D9);
@@ -6,11 +6,11 @@
     padding: 20px 100px;
 }
 
-.welcome_text {
+.welcome_home_text {
     flex: 1;
 }
 
-.logo_image {
+.welcome_home_logo {
     width: 280px;
 }
 
