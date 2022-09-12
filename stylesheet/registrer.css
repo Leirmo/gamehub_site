@@ -12,7 +12,7 @@ legend {
     box-shadow: 5px 5px 5px black;
     border-radius: 25px;
     background-color: #0487D9;
-    padding: 30px;
+    padding: 60px 30px;
     align-items: center;
     color: #fff;
 }
@@ -32,6 +32,9 @@ fieldset {
     border: none;
 }
 
+fieldset a {
+    background-color: #7614D9;
+}
 
 .button {
     position: relative;
@@ -39,9 +42,9 @@ fieldset {
     width: 100%;
     margin: auto;
 }
-#registrer_btn {
+.purple {
     position: relative;
-    margin: 30px auto;
+    margin: 30px;
     border: none;
     color: #fff;
     background: #7614D9;

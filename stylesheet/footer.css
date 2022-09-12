@@ -3,9 +3,11 @@ footer {
 }
   
 .footer_section {
+   max-width: 1000px;
    display: flex;
    justify-content: space-between;
    padding: 50px 80px 40px 80px;
+   margin: auto;
 }
   
 .follow_us_section {

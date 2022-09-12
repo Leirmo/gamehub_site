@@ -3,19 +3,14 @@ body{
     padding: 0;
 }
 
-.one {
-    background-color: blueviolet;
-}
-
-.two {
+.about_two {
     background-color: #022859; 
+    padding: 70px;
 }
 
-.about {
-    position: relative;
-    padding: 20px 200px 50px 200px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
+.about_content {
+    width: 1000px;
+    margin: auto;
+
 }
 

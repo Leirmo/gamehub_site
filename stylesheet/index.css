@@ -8,7 +8,7 @@
 
 .welcome_home_content,
 .section_home_1 {
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     flex-direction: row-reverse;
     gap: 50px;
@@ -22,7 +22,7 @@
 }
 
 .section_home_2_content {
-    max-width: 1000px;
+    max-width: 1500px;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -30,19 +30,13 @@
     padding: 20px 0;
 }
 
-
 .cover_image {
-    margin: 10px;
-    width: 150px;
+    width: 180px;
+    margin: 5px;
     box-shadow: 5px 5px 5px black;
 }
+
   
 .cover_image:hover {
     box-shadow: 10px 10px 5px black;
-}
-  
-.sell {
-    background-color: #022859;
-    text-align: center;
-    padding: 50px;
 }
