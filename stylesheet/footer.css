@@ -3,20 +3,30 @@ footer {
 }
   
 .footer_section {
-   max-width: 1000px;
+   max-width: 500px;
    display: flex;
-   justify-content: space-between;
+   flex-direction: column;
    padding: 50px 80px 40px 80px;
    margin: auto;
+   text-align: center;
+}
+
+.footer_section > * {
+   flex: 1;
 }
   
 .follow_us_section {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-gap: 1em;
-   position: absolute;
-   padding-top: 70px;
    text-align: center;
+   padding: 0 0 30px 0;
+   width: 200px;
+   margin: auto;
+   
+}
+
+.follow_us_section h3 {
+   grid-column: -1/1;
 }
   
 .fa-instagram,
@@ -25,4 +35,23 @@ footer {
 .fa-youtube {
    display: grid;
    font-size: 30px;
+}
+
+@media (min-width: 800px) {
+   footer {
+      min-width: 1000px;
+   }
+   .footer_section {
+   flex-direction: row;
+   gap: 400px;
+   max-width: 1000px;
+   } 
+   
+   .follow_us_section div {
+   }
+
+   .follow_us_section h3 {
+      text-align: left;
+      padding-left: 30px;
+   }
 }
