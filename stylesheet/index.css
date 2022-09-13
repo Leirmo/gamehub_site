@@ -14,7 +14,7 @@
     gap: 50px;
     justify-content: center;
     margin: 0px auto;
-    padding: 20px 0;
+    padding: 20px 30px;
 }
 
 .section_home_1 div {
@@ -74,7 +74,7 @@
         max-width: 1200px;
     }
 
-    .section_home_2_content {
+    .section_home_2_content div {
         flex-direction: row;
     }
 }
