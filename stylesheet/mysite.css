@@ -76,3 +76,7 @@
 .for_sale div {
     gap: 20px;
 }
+
+@media (min-width:850px) {
+    
+}
