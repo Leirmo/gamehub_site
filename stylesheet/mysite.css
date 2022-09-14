@@ -1,6 +1,9 @@
 .profile {
     padding: 50px;
     background-color: #022859;
+    display: flex;
+    padding: 50px;
+
 }
 
 .profile_info {
@@ -19,11 +22,13 @@
 }
 
 .your_games {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-template-columns: repeat(4,1fr);
-    max-width: 500px;
+    max-width: 200px;
     margin: auto;
-    grid-gap: 40px;
+    grid-gap: 50px;
     padding: 0 0 70px 0;
 }
 
@@ -77,6 +82,14 @@
     gap: 20px;
 }
 
-@media (min-width:850px) {
-    
+@media (min-width: 600px) {
+    .your_games {
+    max-width: 500px;
+    flex-direction: row;
+    justify-content: center;
+    }
+}
+
+@media (min-width: 850px) {
+
 }
