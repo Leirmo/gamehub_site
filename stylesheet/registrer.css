@@ -8,7 +8,7 @@ legend {
 .registrer_form {
     font-family: 'Open Sans', sans-serif;
     max-width: 500px;
-    margin: 50px auto;
+    margin: 50px;
     box-shadow: 5px 5px 5px black;
     border-radius: 25px;
     background-color: #0487D9;
@@ -41,19 +41,31 @@ fieldset a {
     text-align: center;
     width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .purple {
     position: relative;
-    margin: 30px;
+    margin: 10px 30px;
     border: none;
     color: #fff;
     background: #7614D9;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 25px;
-
 }
 
 #registrer_btn:hover {
     box-shadow: 5px 5px 5px black;
     cursor: pointer;
+}
+
+
+@media (min-width: 600px) {
+    .registrer_form {
+        margin: 50px auto;
+    }
+    .button  {
+        flex-direction: row;   
+    }
+    
 }
