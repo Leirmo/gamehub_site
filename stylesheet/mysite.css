@@ -23,7 +23,8 @@
 .your_games {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 200px;
+    align-items: center;
     margin: auto;
     grid-gap: 50px;
     padding: 0 0 70px 0;

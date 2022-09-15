@@ -2,8 +2,9 @@
 
 .shopping_cart {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 100px;
+    gap: 25px;
     padding: 50px 50px;
     margin: 20px;
     background-color: #022859;
@@ -19,6 +20,7 @@
 @media (min-width: 600px) {
     .shopping_cart {
         width: 1000px;
+        flex-direction: row;
         padding: 50px auto;
         gap: 50px;
         margin: 50px auto;
